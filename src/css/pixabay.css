@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  padding: 20px;
+  padding: 20px 16px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -47,6 +47,7 @@ body {
 
 .gallery {
   list-style: none;
+  justify-content: center;
   padding: 0;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
