@@ -2,7 +2,6 @@ import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
 
 const galleryEl = document.querySelector('.gallery');
-const loader = document.querySelector('#loader');
 
 const lightbox = new SimpleLightbox('.gallery a');
 
@@ -31,9 +30,9 @@ export function clearGallery() {
 }
 
 export function showLoader() {
-  loader.classList.remove('hidden');
+  document.querySelector('.loader-container').classList.remove('is-hidden');
 }
 
 export function hideLoader() {
-  loader.classList.add('hidden');
+  document.querySelector('.loader-container').classList.add('is-hidden');
 }
