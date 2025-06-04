@@ -73,9 +73,9 @@ body {
 .image-info {
   display: flex;
   justify-content: space-around;
-  align-items: flex-start;
-  padding: 8px;
-  height: 48px;
+  padding: 4px 25px 4px 20px;
+  font-size: 12px;
+  text-align: center;
   border-top: 1px solid #808080;
   background: #FFF;
 }
